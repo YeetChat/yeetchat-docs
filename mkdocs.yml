@@ -1,0 +1,35 @@
+site_name: "YeetChat Docs"
+docs_dir: docs-source
+theme:
+  name: material
+  logo: assets/transparent.png
+  logo: assets/transparent.png
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light green
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.autohide
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/git-alt
+    # - search.suggest # Insider only (https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/)
+    # - search.highlight # Insider only (https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/)
+plugins:
+  - search:
+      prebuild_index: true
+  - git-revision-date-localized:
+      type: timeago
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yeetchatapp
+    - icon: fontawesome/brands/github
+      link: https://github.com/yeetchat
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.yeetchat.xyz/
+  # generator: false # Insider Only (https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/)
+  repo_url: https://gitlab.com/yeetchat/yeetchat-server
+  repo_name: yeetchat/yeetchat-docs

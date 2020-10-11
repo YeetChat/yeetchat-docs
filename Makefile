@@ -3,3 +3,4 @@ install:
 
 build:
 	mkdocs build
+	cp site docs
