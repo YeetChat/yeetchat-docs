@@ -1,0 +1,28 @@
+{
+  "name": "yeetchat-docs",
+  "version": "1.0.0",
+  "description": "yeetchat docs; this only exists for \"npm run\" commands",
+  "main": "",
+  "scripts": {
+    "test": "echo \"no tests needed; just run npm run build\"",
+    "preinstall": "echo \"This package has no NPM libraries; but this command does install the mandatory pip library. Please ensure python 3.9 or above is installed.\"",
+    "postinstall": "pip install mkdocs-material",
+    "build": "mkdocs build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeetChat/yeetchat-docs.git"
+  },
+  "keywords": [
+    "bean",
+    "bean2",
+    "bean3",
+    "docs"
+  ],
+  "author": "0j3 & celestialcrafter",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/YeetChat/yeetchat-docs/issues"
+  },
+  "homepage": "https://github.com/YeetChat/yeetchat-docs#readme"
+}
