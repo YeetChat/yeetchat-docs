@@ -2,8 +2,8 @@ site_name: "YeetChat Docs"
 docs_dir: docs-source
 theme:
   name: material
-  logo: assets/transparent.png
-  logo: assets/transparent.png
+  logo: https://yeetchat.xyz/favicon.png
+  favicon: https://yeetchat.xyz/favicon.png
   palette:
     scheme: slate
     primary: blue
