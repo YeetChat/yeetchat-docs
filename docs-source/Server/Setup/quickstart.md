@@ -39,6 +39,7 @@ This quickstart page is for a command that contains other commands, meant to get
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires Yarn & Git)
+            
             ??? warning
                 Windows requires Scripts Enabled to use Yarn on Powershell. Please see [WINDOWS: Enabling Scirpt Usage in Powershell](https://docs.yeetchat.xyz/Server/Setup/scriptusage.md)
             
@@ -81,6 +82,9 @@ This quickstart page is for a command that contains other commands, meant to get
             git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires Yarn & Git)
+
+            ??? warning
+                Windows requires Scripts Enabled to use Yarn on Powershell. Please see [WINDOWS: Enabling Scirpt Usage in Powershell](https://docs.yeetchat.xyz/Server/Setup/scriptusage.md)
             
 
 === "Do not use Yarn"
