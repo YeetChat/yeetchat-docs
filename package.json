@@ -7,7 +7,7 @@
     "test": "echo \"no tests needed; just run npm run build\"",
     "preinstall": "echo \"This package has no NPM libraries; but this command does install the mandatory pip library. Please ensure python 3.9 or above is installed.\"",
     "postinstall": "pip install mkdocs-material mkdocs-git-revision-date-localized-plugin",
-    "build": "python -m mkdocs build && copy site docs"
+    "build": "python -m mkdocs build && del docs /S /Q && rmdir docs && copy site docs"
   },
   "repository": {
     "type": "git",
