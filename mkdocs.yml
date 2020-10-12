@@ -33,3 +33,10 @@ extra:
   # generator: false # Insider Only (https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/)
   repo_url: https://gitlab.com/yeetchat/yeetchat-server
   repo_name: yeetchat/yeetchat-docs
+
+########################### NAVIGATION ###########################
+nav:
+    - Home: 'README.md'
+    - Server:
+      - 'Cloning the Repository': 'Server/Setup/cloning.md'
+      - 'Installing Dependencies': 'Server/Setup/install_dep.md'
