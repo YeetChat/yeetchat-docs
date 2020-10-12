@@ -2,5 +2,6 @@ install:
 	pip install mkdocs-material
 
 build:
+	mv docs site
 	mkdocs build
-	cp site docs
+	mv site docs
