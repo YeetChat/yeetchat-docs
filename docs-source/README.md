@@ -2,8 +2,10 @@
 Hi, welcome to the YeetChat Docs!<br>
 Please note: By using this software, you are agreeing to the Licenses found under [https://docs.yeetchat.xyz/misc/licenses/LICENSE/](misc/licenses/LICENSE/)<br><br>
 Please click next, search for a topic, or use the navigation menu(s) to navigate these docs.<br>
+<br>
 Thanks for choosing YeetChat!
 
+> P.S. If something's missing, please contact us on [Twitter](https://yeetchat.xyz/dest/twitter)
 
 ----
 

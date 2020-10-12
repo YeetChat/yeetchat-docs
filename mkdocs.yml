@@ -22,6 +22,7 @@ plugins:
       prebuild_index: true
   - git-revision-date-localized:
       type: timeago
+
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -43,14 +44,21 @@ nav:
       - AGPL-3.0: 'misc/licenses/AGPL.md'
       - GPL-3.0: 'misc/licenses/GPL.md'
       - LGPL-3.0: 'misc/licenses/LGPL.md'
-    # - Repos: 'misc/repos.md'
     - Server:
-      - 'Quick Start': 'Server/Setup/quickstart.md'
-      - 'Cloning the Repository': 'Server/Setup/cloning.md'
-      - 'Installing Dependencies': 'Server/Setup/install_dep.md'
-      - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
+      - Setup:
+        - 'Quick Start': 'Server/Setup/quickstart.md'
+        - 'Cloning the Repository': 'Server/Setup/cloning.md'
+        - 'Installing Dependencies': 'Server/Setup/install_dep.md'
+        - 'Starting your Server': 'Server/Setup/starting.md'
+        - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
+      - Configuring:
+        - 'Setting up SSL/TLS': 'Server/Setup/ssl.md'
+    - Client:
+      - 'Getting Started': ''
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
+  - pymdownx.details
+  - admonition
   - toc:
       permalink: "#"
