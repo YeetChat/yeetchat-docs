@@ -4,10 +4,10 @@
 [Docs Page](https://docs.yeetchat.xyzs) | [Source (Server)](https://gitlab.yeetchat.xyz/yeetchat-server) | [Source (Client)](https://gitlab.yeetchat.xyz/yeetchat-client) | [Source (Login-Background)](https://github.com/yeetchat/Background_Login) | [The rest of the source](https://gitlab.yeetchat.xyz)
 
 # License
-[Info on which licenses are used where](https://docs.yeetchat.xyz/misc/LICENSE/)
-[AGPL-3.0-or-later](https://docs.yeetchat.xyz/misc/AGPL/)
-[GPL-3.0-or-later](https://docs.yeetchat.xyz/misc/GPL/)
-[LGPL-3.0-or-later](https://docs.yeetchat.xyz/misc/LGPL/)
+- [Info on which licenses are used where](https://docs.yeetchat.xyz/misc/LICENSE/)
+- [AGPL-3.0-or-later](https://docs.yeetchat.xyz/misc/AGPL/)
+- [GPL-3.0-or-later](https://docs.yeetchat.xyz/misc/GPL/)
+- [LGPL-3.0-or-later](https://docs.yeetchat.xyz/misc/LGPL/)
 
 
 # Copyright Notice:
