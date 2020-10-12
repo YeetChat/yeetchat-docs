@@ -13,7 +13,7 @@
     
     
       
-        <title>Quickstart - YeetChat Docs</title>
+        <title>Quick Start - YeetChat Docs</title>
       
     
     
@@ -95,7 +95,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Quickstart
+              Quick Start
             
           </span>
         </div>
@@ -142,7 +142,9 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -173,13 +175,11 @@
 
       
         
-      
-        
   
   
     <li class="md-tabs__item">
       
-        <a href="../cloning/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link md-tabs__link--active">
           Server
         </a>
       
@@ -327,29 +327,19 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../../misc/repos.md" class="md-nav__link">
-      Repos
-    </a>
-  </li>
 
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
-    <label class="md-nav__link" for="nav-4">
+    <label class="md-nav__link" for="nav-3">
       Server
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Server" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
+      <label class="md-nav__title" for="nav-3">
         <span class="md-nav__icon md-icon"></span>
         Server
       </label>
@@ -360,11 +350,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../cloning/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Quick Start
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       Quick Start
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#information" class="md-nav__link">
+    Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    Note
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -440,43 +475,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#linux" class="md-nav__link">
-    Linux
+  <a href="#note" class="md-nav__link">
+    Note
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#macos" class="md-nav__link">
-    MacOS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
-    Windows
-  </a>
-  
-    <nav class="md-nav" aria-label="Windows">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cmd" class="md-nav__link">
-    CMD
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#powershell" class="md-nav__link">
-    Powershell
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -496,22 +497,124 @@
                 <h1 id="quickstart">Quickstart<a class="headerlink" href="#quickstart" title="Permanent link">#</a></h1>
 <h2 id="information">Information<a class="headerlink" href="#information" title="Permanent link">#</a></h2>
 <p>This quickstart page is for a command that contains other commands, meant to get started within minutes, without waiting for commands to finish, before entering the next.</p>
-<h2 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">#</a></h2>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Use Yarn; not installed yet</label><div class="tabbed-content"></div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Use Yarn, already installed</label><div class="tabbed-content"></div>
-</div>
-<p>bean</p>
-<h2 id="macos">MacOS<a class="headerlink" href="#macos" title="Permanent link">#</a></h2>
-<p>will be added when i get a HackOS on a VM</p>
-<h2 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">#</a></h2>
-<h3 id="cmd">CMD<a class="headerlink" href="#cmd" title="Permanent link">#</a></h3>
-<p>The command for windows' cmd is:
-<code>npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;</code>
+<div class="tabbed-set" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Use Yarn; not installed yet</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Linux</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Bash</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>npm i yarn -g<span class="p">;</span> git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> yarn install<span class="p">;</span>
+</code></pre></div>
 (Requires NPM &amp; Git)</p>
-<h3 id="powershell">Powershell<a class="headerlink" href="#powershell" title="Permanent link">#</a></h3>
-<p>The command for windows' powershell is:
-<code>npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;</code>
-(Requires NPM &amp; Git and script usage to be enabled (see <a href="../scriptusage">Enabling Script Usage</a>))</p>
+</div>
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>npm i yarn -g<span class="p">;</span> git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> yarn install<span class="p">;</span>
+</code></pre></div>
+(Requires NPM &amp; Git | If root is required to install packages globally, add sudo to the beginning)</p>
+</div>
+</div>
+</div>
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">MacOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Bash</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>npm i yarn -g<span class="p">;</span> git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> yarn install<span class="p">;</span>
+</code></pre></div>
+(Requires NPM &amp; Git | Should work, untested at the moment)</p>
+</div>
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">gitlab</span><span class="p">.</span><span class="n">yeetchat</span><span class="p">.</span><span class="n">xyz</span><span class="p">/</span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="nb">cd </span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="n">yarn</span> <span class="n">install</span><span class="p">;</span>
+</code></pre></div>
+(Requires NPM &amp; Git | Should work, untested at the moment)</p>
+</div>
+</div>
+</div>
+<input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><label for="__tabbed_2_3">Windows</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">CMD</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server <span class="p">&amp;&amp;</span> <span class="k">cd</span> yeetchat-server <span class="p">&amp;&amp;</span> yarn install
+</code></pre></div>
+(Requires Yarn &amp; Git)</p>
+</div>
+<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">gitlab</span><span class="p">.</span><span class="n">yeetchat</span><span class="p">.</span><span class="n">xyz</span><span class="p">/</span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="nb">cd </span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="n">yarn</span> <span class="n">install</span><span class="p">;</span>
+</code></pre></div>
+(Requires Yarn &amp; Git)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Use Yarn, already installed</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Linux</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">Bash</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> yarn install<span class="p">;</span>
+</code></pre></div>
+(Requires Yarn &amp; Git | Should work, untested at the moment)</p>
+</div>
+<input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><label for="__tabbed_7_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">gitlab</span><span class="p">.</span><span class="n">yeetchat</span><span class="p">.</span><span class="n">xyz</span><span class="p">/</span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="nb">cd </span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="n">yarn</span> <span class="n">install</span><span class="p">;</span>
+</code></pre></div>
+(Requires Yarn &amp; Git | Should work, untested at the moment)</p>
+</div>
+</div>
+</div>
+<input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">MacOS</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><label for="__tabbed_8_1">Bash</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> yarn install<span class="p">;</span>
+</code></pre></div>
+<!-- Soon™ -->
+(Requires Yarn &amp; Git | Should work, untested at the moment)</p>
+</div>
+<input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><label for="__tabbed_8_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">gitlab</span><span class="p">.</span><span class="n">yeetchat</span><span class="p">.</span><span class="n">xyz</span><span class="p">/</span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="nb">cd </span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="n">yarn</span> <span class="n">install</span><span class="p">;</span>
+</code></pre></div>
+(Requires Yarn &amp; Git | Should work, untested at the moment)</p>
+</div>
+</div>
+</div>
+<input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><label for="__tabbed_6_3">Windows</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><label for="__tabbed_9_1">CMD</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server <span class="p">&amp;&amp;</span> <span class="k">cd</span> yeetchat-server <span class="p">&amp;&amp;</span> yarn install
+</code></pre></div>
+(Requires Yarn &amp; Git)</p>
+</div>
+<input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><label for="__tabbed_9_2">Powershell</label><div class="tabbed-content">
+<p><div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">gitlab</span><span class="p">.</span><span class="n">yeetchat</span><span class="p">.</span><span class="n">xyz</span><span class="p">/</span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="nb">cd </span><span class="n">yeetchat-server</span><span class="p">;</span> <span class="n">yarn</span> <span class="n">install</span><span class="p">;</span>
+</code></pre></div>
+(Requires Yarn &amp; Git)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Do not use Yarn</label><div class="tabbed-content">
+<p>Please confirm that you wish to not use yarn.<br>
+NPM is not officially supported for YeetChat's Server.<br>
+(although bugs found using NPM should be reported anyway, they must specify that they are using NPM, and will likely not be tested by the developers)</p>
+<div class="tabbed-set" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><label for="__tabbed_10_1">I do not confirm, that I do not want to use Yarn</label><div class="tabbed-content">
+<p>User has not confirmed</p>
+</div>
+<input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><label for="__tabbed_10_2">I confirm, that I do not want to use Yarn</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="11:3"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><label for="__tabbed_11_1">Linux</label><div class="tabbed-content">
+<p>Here is your non-yarn command:
+<div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> npm i<span class="p">;</span>
+</code></pre></div>
+(Requires Git &amp; NPM)</p>
+</div>
+<input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><label for="__tabbed_11_2">MacOS</label><div class="tabbed-content">
+<p>Here is your non-yarn command:
+<div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server<span class="p">;</span> <span class="nb">cd</span> yeetchat-server<span class="p">;</span> npm i<span class="p">;</span>
+</code></pre></div>
+(Requires Git &amp; NPM)</p>
+</div>
+<input id="__tabbed_11_3" name="__tabbed_11" type="radio" /><label for="__tabbed_11_3">Windows</label><div class="tabbed-content">
+<p>Here is your non-yarn command:
+<div class="highlight"><pre><span></span><code>git clone https://gitlab.yeetchat.xyz/yeetchat-server <span class="p">&amp;&amp;</span> <span class="k">cd</span> yeetchat-server <span class="p">&amp;&amp;</span> npm i
+</code></pre></div>
+(Requires Git &amp; NPM)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="note">Note<a class="headerlink" href="#note" title="Permanent link">#</a></h2>
+<p>MacOS/HackOS will be supported in the near future, although it isn't yet.</p>
                 
                   
                     
@@ -520,7 +623,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2020-10-12T12:14:22+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2020-10-12</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2020-10-12T13:22:39+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2020-10-12</span>
     
   </small>
 </div>
@@ -539,6 +642,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../../misc/licenses/LGPL/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                LGPL-3.0
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../cloning/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Cloning the Repository
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
