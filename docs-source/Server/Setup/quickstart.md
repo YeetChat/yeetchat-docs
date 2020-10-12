@@ -24,19 +24,19 @@ This quickstart page is for a command that contains other commands, meant to get
             (Requires NPM & Git | Should work, untested at the moment)
         === "Powershell"
             ```powershell
-            git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
+            npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires NPM & Git | Should work, untested at the moment)
     
     === "Windows"
         === "CMD"
             ```batch
-            git clone https://gitlab.yeetchat.xyz/yeetchat-server && cd yeetchat-server && yarn install
+            npm i yarn -g && git clone https://gitlab.yeetchat.xyz/yeetchat-server && cd yeetchat-server && yarn install
             ```
             (Requires Yarn & Git)
         === "Powershell"
             ```powershell
-            git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
+            npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires Yarn & Git)
             
