@@ -33,12 +33,12 @@ This quickstart page is for a command that contains other commands, meant to get
             ```batch
             npm i yarn -g && git clone https://gitlab.yeetchat.xyz/yeetchat-server && cd yeetchat-server && yarn install
             ```
-            (Requires Yarn & Git)
+            (Requires NPM & Git)
         === "Powershell"
             ```powershell
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
-            (Requires Yarn & Git)
+            (Requires NPM & Git)
             
             ??? warning
                 Windows requires Scripts Enabled to use Yarn on Powershell. Please see [WINDOWS: Enabling Scirpt Usage in Powershell](https://docs.yeetchat.xyz/Server/Setup/scriptusage.md)

@@ -488,9 +488,85 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Setting up SSL/TLS
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Setting up SSL/TLS
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generating-a-certificate" class="md-nav__link">
+    Generating a Certificate
+  </a>
+  
+    <nav class="md-nav" aria-label="Generating a Certificate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generating-the-certificate" class="md-nav__link">
+    Generating the certificate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-your-existing-certificate" class="md-nav__link">
+    Using your existing Certificate
+  </a>
+  
+    <nav class="md-nav" aria-label="Using your existing Certificate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements_1" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-it" class="md-nav__link">
+    Using it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -560,6 +636,68 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generating-a-certificate" class="md-nav__link">
+    Generating a Certificate
+  </a>
+  
+    <nav class="md-nav" aria-label="Generating a Certificate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generating-the-certificate" class="md-nav__link">
+    Generating the certificate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-your-existing-certificate" class="md-nav__link">
+    Using your existing Certificate
+  </a>
+  
+    <nav class="md-nav" aria-label="Using your existing Certificate">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements_1" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-it" class="md-nav__link">
+    Using it
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -572,7 +710,48 @@
                 
                 
                 <h1 id="setting-up-ssltls-on-your-server">Setting up SSL/TLS on your server<a class="headerlink" href="#setting-up-ssltls-on-your-server" title="Permanent link">#</a></h1>
-<p>Documentation Soon(tm)</p>
+<h2 id="generating-a-certificate">Generating a Certificate<a class="headerlink" href="#generating-a-certificate" title="Permanent link">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This page shows how to generate a <strong><em>SELF SIGNED</em></strong> certificate, which should <strong><em>NEVER</em></strong> be used in production (<strong><em>ONLY</em></strong> in testing!)<br>
+YeetChat Inc. Provides NO WARRANTY for user data, which is lost or stolen, or anything else, when using a Self-Signed Certificate, or no Certificate.<br>
+(We don't provide warranty for anything, to the extent provided by law, anyway)</p>
+</div>
+<details class="note" open="open"><summary>Reasons to use SSL/TLS in testing</summary><ol>
+<li>It allows you to test for SSL-based errors</li>
+<li>It allows you to test on port 8443</li>
+</ol>
+</details>
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">#</a></h3>
+<ul>
+<li>OpenSSL<br></li>
+<li>YeetChat Server<br></li>
+<li>An IP <em>OR</em> A DNS address (127.0.0.1/localhost works)<br></li>
+</ul>
+<h3 id="generating-the-certificate">Generating the certificate<a class="headerlink" href="#generating-the-certificate" title="Permanent link">#</a></h3>
+<ol>
+<li>cd into the YeetChat Directory<br></li>
+<li>Run the following command to ensure the sslcert directory exists: <code>mkdir sslcert</code></li>
+<li>Open the sslcert directory using <code>cd sslcert</code></li>
+<li>Run the following command to generate the keys: </li>
+</ol>
+<div class="admonition note">
+<p><div class="highlight"><pre><span></span><code>openssl req -x509 -out localhost.crt -keyout localhost.key \
+  -newkey rsa:2048 -nodes -sha256 \
+  -subj &#39;/CN=localhost&#39; -extensions EXT -config &lt;( \
+  printf &quot;[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth&quot;)
+</code></pre></div>
+(pretty sure its only available on linux)</p>
+</div>
+<h2 id="using-your-existing-certificate">Using your existing Certificate<a class="headerlink" href="#using-your-existing-certificate" title="Permanent link">#</a></h2>
+<h3 id="requirements_1">Requirements<a class="headerlink" href="#requirements_1" title="Permanent link">#</a></h3>
+<ul>
+<li>A valid certificate (preferably trusted by a CA)<br></li>
+<li>YeetChat Server<br></li>
+</ul>
+<h3 id="using-it">Using it<a class="headerlink" href="#using-it" title="Permanent link">#</a></h3>
+<p>The .crt file must be in [yeetchat-server path here]/server.crt<br>
+The .key file must be in [yeetchat-server path here]/server.key</p>
                 
                   
                     
