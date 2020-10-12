@@ -36,12 +36,14 @@ extra:
 
 ########################### NAVIGATION ###########################
 nav:
-    - Home: 'README.md'
+    - Home:
+      - 'README.md'
     - License:
-      - Licenses: 'misc/LICENSE.md'
-      - AGPL-3.0: 'misc/AGPL.md'
-      - GPL-3.0: 'misc/GPL.md'
-      - LGPL-3.0: 'misc/LGPL.md'
+      - Licenses: 'misc/licenses/LICENSE.md'
+      - AGPL-3.0: 'misc/licenses/AGPL.md'
+      - GPL-3.0: 'misc/licenses/GPL.md'
+      - LGPL-3.0: 'misc/licenses/LGPL.md'
+    - Repos: 'misc/repos.md'
     - Server:
       - 'Cloning the Repository': 'Server/Setup/cloning.md'
       - 'Installing Dependencies': 'Server/Setup/install_dep.md'

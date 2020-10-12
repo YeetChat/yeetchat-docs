@@ -1,6 +1,6 @@
 # Welcome
 Hi, welcome to the YeetChat Docs!<br>
-Please note: By using this software, you are agreeing to the Licenses found under [/misc/LICENSE/](misc/LICENSE/)<br><br>
+Please note: By using this software, you are agreeing to the Licenses found under [/misc/LICENSES/LICENSE/](misc/LICENSES/LICENSE/)<br><br>
 Please click next, search for a topic, or use the navigation menu(s) to navigate these docs.<br>
 Thanks for choosing YeetChat!
 
