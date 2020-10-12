@@ -52,7 +52,7 @@ nav:
         - 'Starting your Server': 'Server/Setup/starting.md'
         - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
       - Configuring:
-        - 'Setting up SSL/TLS': 'Server/Setup/ssl.md'
+        - 'Setting up SSL/TLS': 'Server/Configuring/ssl.md'
     - Client:
       - 'Getting Started': ''
 markdown_extensions:
