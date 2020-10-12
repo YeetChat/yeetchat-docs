@@ -48,7 +48,7 @@ nav:
       - 'Quick Start': 'Server/Setup/quickstart.md'
       - 'Cloning the Repository': 'Server/Setup/cloning.md'
       - 'Installing Dependencies': 'Server/Setup/install_dep.md'
-      - 'WINDOWS: Enabling Scrpit Usage in Powershell': 'Server/Setup/scriptusage.md'
+      - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
