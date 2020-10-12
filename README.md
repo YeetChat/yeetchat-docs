@@ -1,7 +1,7 @@
 # YeetChat Docs
 *A Work In Progress YeetChat Documentation Page*
 
-[Docs Page](https://docs.yeetchat.xyzs) | [Source (Server)](https://gitlab.yeetchat.xyz/yeetchat-server) | [Source (Client)](https://gitlab.yeetchat.xyz/yeetchat-client) | [Source (Login-Background)](https://github.com/yeetchat/Background_Login) | [The rest of the source](https://gitlab.yeetchat.xyz)
+[Docs Page](https://docs.yeetchat.xyz) | [Source (Server)](https://gitlab.yeetchat.xyz/yeetchat-server) | [Source (Client)](https://gitlab.yeetchat.xyz/yeetchat-client) | [Source (Login-Background)](https://github.com/yeetchat/Background_Login) | [The rest of the source](https://gitlab.yeetchat.xyz)
 
 # License
 - [Info on which licenses are used where](https://docs.yeetchat.xyz/misc/LICENSE/)
