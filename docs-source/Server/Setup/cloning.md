@@ -12,4 +12,4 @@ To clone using HTTPS, use
 
 1. Github mirror might soon be available
 2. Using SSH requires an SSH Key (and perms)
-3. Using <https://gitlab.yeetchat.xyz/yeetchat-server> or <https://gitlab.com/yeetchat/yeetchat-server> for cloning will work under HTTPS, although those same paths might not work under SSH
+3. Using <https://gitlab.yeetchat.xyz/yeetchat-server> or <https://gitlab.com/yeetchat/yeetchat-server> for cloning will work under HTTPS, but the gitlab.yeetchat.xyz domain will not work for SSH cloning
