@@ -110,15 +110,5 @@ This quickstart page is for a command that contains other commands, meant to get
             (Requires Git & NPM)
 
 
-## Windows
-### CMD
-The command for windows' cmd is:
-```npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;```
-(Requires NPM & Git)
-### Powershell
-The command for windows' powershell is:
-```npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;```
-(Requires NPM & Git and script usage to be enabled (see [Enabling Script Usage](../scriptusage)))
-
 ## Note
 MacOS/HackOS will be supported in the near future, although it isn't yet.
