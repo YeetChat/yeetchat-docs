@@ -4,9 +4,9 @@
   "description": "yeetchat docs; this only exists for \"npm run\" commands",
   "main": "",
   "scripts": {
-    "test": "echo \"no tests needed; just run npm run build\"",
+    "test": "echo \"Starting mkdocs on port 8000\" && python -m mkdocs serve",
     "preinstall": "echo \"This package has no NPM libraries; but this command does install the mandatory pip library. Please ensure python 3.9 or above is installed.\"",
-    "postinstall": "pip install mkdocs-material mkdocs-git-revision-date-localized-plugin",
+    "postinstall": "pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pymdown-extensions pygments",
     "build": "move docs site && python -m mkdocs build && move site docs"
   },
   "repository": {
