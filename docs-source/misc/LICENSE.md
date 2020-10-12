@@ -20,7 +20,7 @@ The above licenses are found as-is on the Gnu Licenses page.
 
 ----
 
-Copyright Notice:
+# Copyright Notice:
 > Copyright (C) 2020  YeetChat Inc.
 > 
 > This program is free software: you can redistribute it and/or modify
