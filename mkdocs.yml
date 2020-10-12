@@ -45,5 +45,10 @@ nav:
       - LGPL-3.0: 'misc/licenses/LGPL.md'
     - Repos: 'misc/repos.md'
     - Server:
+      - 'Quick Start': 'Server/Setup/cloning.md'
       - 'Cloning the Repository': 'Server/Setup/cloning.md'
       - 'Installing Dependencies': 'Server/Setup/install_dep.md'
+      - 'WINDOWS: Enabling Scrpit Usage in Powershell': 'Server/Setup/scriptusage.md'
+markdown_extensions:
+  - toc:
+      permalink: "#"
