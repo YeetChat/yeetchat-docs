@@ -1,4 +1,4 @@
-# YeetChat Docs
+[![Yeetchat Docs Logo](https://yeetchat.github.io/yeetchat-docs/misc/icons/ycdocs-light-transparent.png)](https://docs.yeetchat.xyz)
 *A Work In Progress YeetChat Documentation Page*
 
 [Docs Page](https://docs.yeetchat.xyz) | [Source (Server)](https://gitlab.yeetchat.xyz/yeetchat-server) | [Source (Client)](https://gitlab.yeetchat.xyz/yeetchat-client) | [Source (Login-Background)](https://github.com/yeetchat/Background_Login) | [The rest of the source](https://gitlab.yeetchat.xyz)
