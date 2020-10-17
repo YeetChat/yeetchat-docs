@@ -5,4 +5,4 @@ In the future, it will offer plugins/extensions (custom client-side js), themes 
 <br>
 If you are interested in the documentation behind the project, click next<br>
 If you are interested in using the service, click [here](//yeetchat.xyz/?ref=docs)<br>
-If you are interested in neither of the above, go f**k yourself.
+If you are interested in neither of the above, please reconsider.
