@@ -54,10 +54,10 @@ nav:
         - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
       - Configuring:
         - 'Setting up SSL/TLS': 'Server/Configuring/ssl.md'
-      - DevAPIs:
-        - 'Soon™️': 'Server/DevAPI/Index.md'
     - Client:
       - 'Soon™️': 'Client/Soon™️.md'
+    - DevAPIs:
+      - 'Soon™️': 'Server/DevAPI/Index.md'
     - Browser:
       - 'Soon™️': 'Browser/main.md'
 markdown_extensions:
