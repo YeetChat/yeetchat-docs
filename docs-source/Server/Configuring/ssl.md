@@ -37,5 +37,6 @@
 - YeetChat Server<br>
 
 ### Using it
-The .crt file must be in [yeetchat-server path here]/server.crt<br>
-The .key file must be in [yeetchat-server path here]/server.key
+The .crt file must be placed in [yeetchat-server path here]/sslcert/server.crt<br>
+The .key file must be placed in [yeetchat-server path here]/sslcert/server.key<br>
+If both are found, they are used. Otherwise they are not.

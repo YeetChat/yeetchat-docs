@@ -1,4 +1,4 @@
-# Welcome
+[![Yeetchat Docs Logo](https://yeetchat.github.io/yeetchat-docs/misc/icons/ycdocs-light-transparent.png)](https://docs.yeetchat.xyz)
 Hi, welcome to the YeetChat Docs!<br>
 Please note: By using this software, you are agreeing to the Licenses found under [https://docs.yeetchat.xyz/misc/licenses/LICENSE/](misc/licenses/LICENSE/)<br><br>
 Please click next, search for a topic, or use the navigation menu(s) to navigate these docs.<br>

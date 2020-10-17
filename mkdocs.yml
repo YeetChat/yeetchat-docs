@@ -38,7 +38,8 @@ extra:
 ########################### NAVIGATION ###########################
 nav:
     - Home:
-      - 'README.md'
+      - Welcome: 'README.md'
+      - About: 'About.md'
     - License:
       - Licenses: 'misc/licenses/LICENSE.md'
       - AGPL-3.0: 'misc/licenses/AGPL.md'
