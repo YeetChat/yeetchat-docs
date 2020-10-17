@@ -9,7 +9,7 @@ This quickstart page is for a command that contains other commands, meant to get
             ```bash
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
-            (Requires NPM & Git)
+            (Requires NPM & Git | If root is required to install packages globally, add sudo to the beginning)
         === "Powershell"
             ``` bash
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
@@ -27,7 +27,7 @@ This quickstart page is for a command that contains other commands, meant to get
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires NPM & Git | Should work, untested at the moment)
-            
+
         ## Note
         MacOS/HackOS will be supported in the near future, although it isn't yet.
     
