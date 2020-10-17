@@ -5,7 +5,7 @@ The license for the entire YeetChat-Server repository is the Gnu Affero General 
 The license for the entire YeetChat-Client repository is the Gnu Affero General Public License, unless otherwise specified.
 The license for the entire documentation is the AGPL-3.0-or-later
 
-These can be found here:<br>
+All licenses used in this project can be found here:<br>
 - [AGPL-3.0](https://docs.yeetchat.xyz/misc/licenses/AGPL/)<br>
 - [GPL-3.0](https://docs.yeetchat.xyz/misc/licenses/GPL/)<br>
 - [LGPL-3.0](https://docs.yeetchat.xyz/misc/licenses/LGPL/)<br>
