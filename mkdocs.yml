@@ -56,6 +56,8 @@ nav:
         - 'Setting up SSL/TLS': 'Server/Configuring/ssl.md'
     - Client:
       - 'Getting Started': ''
+    - Browser:
+      - 'Soon™️': 'Browser/main.md'
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
