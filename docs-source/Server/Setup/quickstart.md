@@ -27,6 +27,9 @@ This quickstart page is for a command that contains other commands, meant to get
             npm i yarn -g; git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires NPM & Git | Should work, untested at the moment)
+            
+        ## Note
+        MacOS/HackOS will be supported in the near future, although it isn't yet.
     
     === "Windows"
         === "CMD"
@@ -70,6 +73,9 @@ This quickstart page is for a command that contains other commands, meant to get
             git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; yarn install;
             ```
             (Requires Yarn & Git | Should work, untested at the moment)
+        
+        ## Note
+        MacOS/HackOS will be supported in the near future, although it isn't yet.
     
     === "Windows"
         === "CMD"
@@ -108,6 +114,10 @@ This quickstart page is for a command that contains other commands, meant to get
             git clone https://gitlab.yeetchat.xyz/yeetchat-server; cd yeetchat-server; npm i;
             ```
             (Requires Git & NPM)
+
+            ## Note
+            MacOS/HackOS will be supported in the near future, although it isn't yet.
+
         === "Windows"
             Here is your non-yarn command:
             ```batch
@@ -115,6 +125,3 @@ This quickstart page is for a command that contains other commands, meant to get
             ```
             (Requires Git & NPM)
 
-
-## Note
-MacOS/HackOS will be supported in the near future, although it isn't yet.
