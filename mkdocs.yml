@@ -55,9 +55,9 @@ nav:
       - Configuring:
         - 'Setting up SSL/TLS': 'Server/Configuring/ssl.md'
       - DevAPIs:
-        - 'Index': 'Server/DevAPI/Index.md'
+        - 'Soon™️': 'Server/DevAPI/Index.md'
     - Client:
-      - 'Getting Started': ''
+      - 'Soon™️': 'Client/Soon™️.md'
     - Browser:
       - 'Soon™️': 'Browser/main.md'
 markdown_extensions:
