@@ -54,6 +54,8 @@ nav:
         - 'WINDOWS: Enabling Script Usage in Powershell': 'Server/Setup/scriptusage.md'
       - Configuring:
         - 'Setting up SSL/TLS': 'Server/Configuring/ssl.md'
+      - DevAPIs:
+        - 'Index': 'Server/DevAPI/Index.md'
     - Client:
       - 'Getting Started': ''
     - Browser:
